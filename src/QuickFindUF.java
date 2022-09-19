@@ -41,4 +41,17 @@ public class QuickFindUF {
     }
     count--;
   }
+
+  public static void main(String[] args) {
+    QuickFindUF quickfind = new QuickFindUF(10);
+    quickfind.union(1, 2);
+    quickfind.union(3, 5);
+    quickfind.union(4, 5);
+    quickfind.union(2, 8);
+
+    System.out.println(quickfind.count());
+    System.out.println(quickfind.find(1));
+    System.out.println(quickfind.find(8));
+    System.out.println(quickfind.connected(2, 8));
+  }
 }
