@@ -1,9 +1,9 @@
-public class WeightedQuickUnionPathCompressonUF {
+public class WeightedQuickUnionPathCompressionUF {
   private int[] id;
   private int[] size;
   private int count;
 
-  public WeightedQuickUnionPathCompressonUF(int N) {
+  public WeightedQuickUnionPathCompressionUF(int N) {
     // O(N)
     count = N;
     id = new int[N];
@@ -54,15 +54,15 @@ public class WeightedQuickUnionPathCompressonUF {
   }
 
   public static void main(String[] args) {
-    WeightedQuickUnionPathCompressonUF weightQuickUnionPathCompresson = new WeightedQuickUnionPathCompressonUF(10);
-    weightQuickUnionPathCompresson.union(1, 2);
-    weightQuickUnionPathCompresson.union(3, 5);
-    weightQuickUnionPathCompresson.union(4, 5);
-    weightQuickUnionPathCompresson.union(2, 8);
+    WeightedQuickUnionPathCompressionUF weightQuickUnionPathCompression = new WeightedQuickUnionPathCompressionUF(10);
+    weightQuickUnionPathCompression.union(1, 2);
+    weightQuickUnionPathCompression.union(3, 5);
+    weightQuickUnionPathCompression.union(4, 5);
+    weightQuickUnionPathCompression.union(2, 8);
 
-    System.out.println(weightQuickUnionPathCompresson.count());
-    System.out.println(weightQuickUnionPathCompresson.find(1));
-    System.out.println(weightQuickUnionPathCompresson.find(8));
-    System.out.println(weightQuickUnionPathCompresson.connected(2, 8));
+    System.out.println(weightQuickUnionPathCompression.count());
+    System.out.println(weightQuickUnionPathCompression.find(1));
+    System.out.println(weightQuickUnionPathCompression.find(8));
+    System.out.println(weightQuickUnionPathCompression.connected(2, 8));
   }
 }
