@@ -1,7 +1,7 @@
 public class MergeSort {
   public static void main(String[] args) {
     int[] arr = { 1, 4, 3, 5, 6, 67, 3, 12 };
-    mergeSortTopDown(arr);
+    mergeSortBottomUp(arr);
     for (int i : arr) {
       System.out.println(i);
     }
@@ -20,6 +20,16 @@ public class MergeSort {
     mergeSortTopDown(arr, aux, lo, mid); // First half
     mergeSortTopDown(arr, aux, mid + 1, hi); // Secon half
     merge(arr, aux, lo, mid, hi);
+  }
+
+  public static void mergeSortBottomUp(int[] arr) {
+    int N = arr.length;
+    int[] aux = new int[N];
+    for (int sz = 1; sz < N; sz *= 2) { // the size of subarray
+      for (int lo = 0; lo < N - sz; lo += 2 * sz) { // lo: the index of subarray
+        merge(arr, aux, lo, lo + sz - 1, Math.min(lo + 2 * sz - 1, N - 1));
+      }
+    }
   }
 
   public static void merge(int[] arr, int[] aux, int lo, int mid, int hi) {
