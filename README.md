@@ -9,4 +9,7 @@
    1. Selection Sort
    2. Insertion Sort
    3. Shell Sort
-   4. Quick Sort
+   4. Merge Sort
+      1. Merge Sort Top-Down
+      2. Merge Sort Bottom-Up
+   5. Quick Sort
