@@ -14,6 +14,9 @@
       2. Merge Sort Bottom-Up
    5. Quick Sort
 3. **Abstract Data Type (ADT)**
-   1. Array Stack
-   2. Node
+   1. Node
+   2. Array Stack
    3. Link Stack
+   4. Array Queue
+   5. Link Queue
+   6. Circular Array Queue
