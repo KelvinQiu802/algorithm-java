@@ -20,3 +20,4 @@
    4. Array Queue
    5. Link Queue
    6. Circular Array Queue
+   7. Singly Linked List
