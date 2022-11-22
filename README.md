@@ -23,6 +23,7 @@
       1. Array Queue
       2. Link Queue
       3. Circular Array Queue
+      4. Double Ended Queue
    5. List
       1. Singly Linked List
       2. Array Based List
