@@ -26,3 +26,4 @@
    5. List
       1. Singly Linked List
       2. Array Based List
+      3. Doubly Linked List
