@@ -15,9 +15,14 @@
    5. Quick Sort
 3. **Abstract Data Type (ADT)**
    1. Node
-   2. Array Stack
-   3. Link Stack
-   4. Array Queue
-   5. Link Queue
-   6. Circular Array Queue
-   7. Singly Linked List
+   2. Array Position
+   3. Stack
+      1. Array Stack
+      2. Link Stack
+   4. Queue
+      1. Array Queue
+      2. Link Queue
+      3. Circular Array Queue
+   5. List
+      1. Singly Linked List
+      2. Array Based List
