@@ -23,12 +23,7 @@ public class SinglyLinkedList {
     if (p == last() || isEmpty()) {
       return null;
     }
-
-    Node N = first;
-    while (N.next != p && N.next != null) {
-      N = N.next;
-    }
-    return N.next.next;
+    return p.next;
   }
 
   public Node before(Node p) {
