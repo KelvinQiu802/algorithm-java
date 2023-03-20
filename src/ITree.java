@@ -13,7 +13,7 @@ public interface ITree<T> extends Iterable<T> {
         return numChildren(p) == 0;
     }
 
-    default boolean isInternal() {
+    default boolean isInternal(IPosition<T> p) {
         return numChildren(p) > 0;
     }
 
