@@ -29,5 +29,5 @@ public interface ITree<T> extends Iterable<T> {
 
     Iterator<T> iterator();
 
-    Iterable<Position<T>> positions();
+    Iterable<IPosition<T>> positions();
 }

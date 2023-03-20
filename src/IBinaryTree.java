@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public interface IBTree<T> extends ITree<T> {
+public interface IBinaryTree<T> extends ITree<T> {
     IPosition<T> left(IPosition<T> p);
 
     IPosition<T> right(IPosition<T> p);
