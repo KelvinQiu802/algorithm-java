@@ -28,3 +28,6 @@
       1. Singly Linked List
       2. Array Based List
       3. Doubly Linked List
+   6. Tree
+      1. Binary Tree
+      2. Binary Search Tree (BST)
